@@ -1,0 +1,262 @@
+body {
+    padding-top: 24px;
+    background-color: gray;
+}
+
+.form {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 704px;
+    padding: 24px;
+    border-radius: 12px;
+
+}
+
+.avatar__box {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    font-size: 40px;
+    background: #D5E4F7;
+    text-align: center;
+
+
+
+
+}
+
+.avatar__text {
+    font-family: 'SB Sans Text Mono';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    align-items: center;
+    padding-top: 14px;
+}
+
+.form__header {
+
+    /* Headers/H3 Semibold */
+
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    line-height: 26px;
+
+    color: #333333;
+
+}
+
+.links {
+
+
+    margin-top: 8px;
+    /* Text/Text 3 */
+
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-size: 12px;
+    /* identical to box height, or 133% */
+
+    margin-right: 36px;
+    /* Purple/100 */
+
+    color: #5558FA;
+
+
+
+
+}
+
+.line {
+    width: 852px;
+    height: 0px;
+    margin-top: 41px;
+    /* Black Alpha/Alpha 8 */
+
+    border: 1px solid rgba(0, 0, 0, 0.08);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.text {
+    width: 400px;
+    height: 20px;
+
+    /* Text/Text 2 */
+
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+
+    /* Work Presets/Text White Mode/Primary_G800 */
+
+    color: #333333;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.warning {
+    width: 400px;
+    height: 20px;
+
+    /* Text/Text 2 */
+
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+
+    /* Work Presets/Text White Mode/Primary_G800 */
+
+    color: red;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.form__input {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+
+    width: 400px;
+    height: 44px;
+
+    /* Black Alpha/Alpha 4 */
+
+    background: rgba(0, 0, 0, 0.04);
+    /* Black Alpha/Alpha 16 */
+
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.form__button__next {
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 1px;
+    
+
+    width: 90px;
+    height: 44px;
+    
+
+    /* Purple/100 */
+
+    background: #5558FA;
+    border-radius: 4px;
+}
+
+.progress__bar {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    height: 8px;
+    left: 110px;
+    right: 110px;
+    top: 66px;
+
+    /* Black Alpha/Alpha 8 */
+
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.form__button__back {
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 8px;
+
+    width: 79px;
+    height: 44px;
+    left: 24px;
+    top: 369px;
+
+    /* Purple/100 */
+
+    background: white;
+    border-radius: 4px;
+}
+
+.placeholder {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px 12px 12px 0px;
+    gap: 12px;
+
+    width: 680px;
+    height: 84px;
+
+    /* Grey/0 White */
+
+    background: #FFFFFF;
+    /* Black Alpha/Alpha 16 */
+
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    z-index: 1;
+}

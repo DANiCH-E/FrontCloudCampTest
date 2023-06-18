@@ -1,0 +1,107 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+
+.modal__content {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+    height: 312px;
+    width: 460px;
+}
+
+.modal.active {
+    transform: scale(1);
+}
+
+.modal__text {
+    
+
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    
+    /* identical to box height, or 130% */
+    margin-left: auto;
+    text-align: center;
+
+    /* Work Presets/Text White Mode/Primary_G800 */
+
+    color: #333333;
+
+}
+
+.box__modal {
+    position: absolute;
+width: 396px;
+height: 132px;
+left: calc(50% - 396px/2);
+top: calc(50% - 132px/2 - 8.5px);
+
+background: #FFFFFF;
+}
+
+.success {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: calc(50% - 80px/2);
+    top: calc(50% - 80px/2);
+    
+    /* Preset/Functional/Status/Alpha Emerald Green 15 */
+    
+    background: rgba(5, 174, 113, 0.15);
+    border-radius: 100px;
+
+
+}
+
+.arrow {
+    position: absolute;
+left: 10%;
+right: 10%;
+top: 10%;
+bottom: 10%;
+border-radius: 100px;
+/* Preset/Functional/Status/Emerald Green 100 */
+
+background: #05AE71;
+}
+
+.button__modal {
+    
+    margin-top: 230px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 1px;
+    
+    
+    width: 90px;
+    height: 44px;
+    
+
+    /* Purple/100 */
+
+    background: #5558FA;
+    border-radius: 4px;
+    
+}
